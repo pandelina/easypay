@@ -1,0 +1,49 @@
+/* _content/Contactsbook/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-fu9u9pvblv] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-fu9u9pvblv] {
+  color: #0077cc;
+}
+
+.btn-primary[b-fu9u9pvblv] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-fu9u9pvblv], .nav-pills .show > .nav-link[b-fu9u9pvblv] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-fu9u9pvblv] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-fu9u9pvblv] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-fu9u9pvblv] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-fu9u9pvblv] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-fu9u9pvblv] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

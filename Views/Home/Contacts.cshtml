@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Contacts";
+}
+
+@model List<Contact>
+
+<div class="text-center">
+    <h1 class="display-4">Contacts</h1>
+    <br />
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Email</th>
+                <th>PhoneNumber</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                
+                foreach (var contact in Model)
+            {
+                <tr>
+                    <td>@contact.Id</td>
+                    <td>@contact.FirstName</td>
+                    <td>@contact.LastName</td>
+                    <td>@contact.Email</td>
+                    <td>@contact.PhoneNumber</td>
+                    <td>@contact.Adress</td>
+
+                    <td>
+                            <a asp-action="CreateContacts" asp-route-id="@contact.Id" >Edit</a>
+                            <a asp-action="DeleteContacts" asp-route-id="@contact.Id">Delete</a>
+
+                    </td>
+                </tr>
+            }
+            }
+        </tbody>
+    </table>
+</div>
